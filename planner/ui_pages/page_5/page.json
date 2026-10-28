@@ -1,0 +1,10 @@
+{
+  "unique_page_id": "page_5",
+  "page_name": "Technology",
+  "description": "This page highlights the advanced engineering tools and digital methodologies used by Hydrologic Innovation, including WaterGems, SewerGems, and GIS platforms. It explains the firm's digital twin approach to infrastructure modeling, demonstrating how simulation-driven design reduces risk, improves accuracy, and delivers better outcomes for complex water system projects.",
+  "file_name": "src/pages/Technology.tsx",
+  "is_protected_page": false,
+  "navigation_note": "Accessible from the top navigation bar by clicking 'Technology'. Also reachable from the homepage Tools/Technology section via a 'Learn More' link.",
+  "sub_pages_required": false,
+  "endpoints": []
+}

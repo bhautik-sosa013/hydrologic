@@ -1,0 +1,15 @@
+{
+  "backend_analysis": {
+    "backend_required": true,
+    "auth_required": false,
+    "third_party_services_required": false,
+    "third_party_services": []
+  },
+  "auth_details": null,
+  "app_type": {
+    "landing_page_website": true,
+    "auth_flow": false,
+    "dashboard": false,
+    "single_pager_without_auth": false
+  }
+}

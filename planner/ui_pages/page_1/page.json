@@ -1,0 +1,10 @@
+{
+  "unique_page_id": "page_1",
+  "page_name": "Home",
+  "description": "The main landing page for Hydrologic Innovation featuring a hero section with animated water flow visuals and the headline 'Engineering Intelligent Water Systems for a Sustainable Future'. Visitors see a services overview, a Why Choose Us section, tools and technology highlights including WaterGems and SewerGems, and a prominent Get Consultation CTA to drive lead generation.",
+  "file_name": "src/pages/Home.tsx",
+  "is_protected_page": false,
+  "navigation_note": "Default first page shown at the root '/' route. Entry point for all visitors. Also accessible by clicking the company logo in the top navigation bar.",
+  "sub_pages_required": false,
+  "endpoints": []
+}

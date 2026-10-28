@@ -1,0 +1,11 @@
+{
+  "unique_page_id": "page_3_sub_2",
+  "page_name": "Water Treatment Plant Design",
+  "description": "This service detail page covers Hydrologic Innovation's Water Treatment Plant design capabilities, outlining the engineering process from feasibility assessment through detailed design and compliance. It highlights design standards, technology integrations, past project scale, and the team's ability to deliver scalable, cost-effective WTP solutions for government and industrial clients.",
+  "file_name": "src/pages/WaterTreatmentPlantDesign.tsx",
+  "is_protected_page": false,
+  "navigation_note": "Opens when a visitor clicks the 'Water Treatment Plant Design' service card or link on the main Services page. Back button or breadcrumb returns to the Services overview.",
+  "parent_page_id": "page_3",
+  "sub_pages_required": false,
+  "endpoints": []
+}

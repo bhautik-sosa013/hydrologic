@@ -1,0 +1,60 @@
+{
+  "unique_page_id": "page_4",
+  "page_name": "Projects",
+  "description": "This page showcases Hydrologic Innovation's portfolio of completed and ongoing engineering projects presented in a case study format. Each project entry summarizes the client, sector, and challenge at a glance. Visitors — particularly government bodies and infrastructure companies — can browse work relevant to their own needs to build confidence in the firm's capabilities.",
+  "file_name": "src/pages/Projects.tsx",
+  "is_protected_page": false,
+  "navigation_note": "Accessible from the top navigation bar by clicking 'Projects'. Also reachable from the homepage credibility section and the footer navigation.",
+  "sub_pages_required": true,
+  "list_of_sub_pages": [
+    {
+      "unique_page_id": "page_4_sub_1",
+      "page_name": "Project Detail",
+      "description": "This page presents the full case study for a single project using the Problem → Solution → Result narrative structure. It includes project scope, tools and methodologies applied, measurable outcomes, client information, and visuals such as diagrams or GIS maps. This deep-dive view builds credibility with prospective clients evaluating the firm for similar infrastructure challenges.",
+      "file_name": "src/pages/ProjectDetail.tsx",
+      "is_protected_page": false,
+      "navigation_note": "Opens when a visitor clicks a project card or 'View Case Study' button on the Projects list page. Back button or breadcrumb returns to the Projects portfolio overview."
+    }
+  ],
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/projects/list",
+      "purpose": "Fetch paginated list of project case studies with filters for sector and project type",
+      "request_type": "query",
+      "request_payload": {
+        "page": "number",
+        "limit": "number",
+        "sector": "string",
+        "project_type": "string"
+      },
+      "response_format": {
+        "message": "string",
+        "data": [
+          {
+            "id": "string",
+            "title": "string",
+            "client": "string",
+            "sector": "string",
+            "project_type": "string",
+            "challenge_summary": "string",
+            "location": "string",
+            "year": "string",
+            "thumbnail_url": "string",
+            "created_at": "string"
+          }
+        ],
+        "total": "number",
+        "page": "number",
+        "limit": "number",
+        "totalPages": "number"
+      },
+      "request_payload_ui_passing": {
+        "page": "From the pagination control — current page number (starts at 1), incremented or decremented by the pagination component below the project cards grid",
+        "limit": "From the page size selector or fixed default (e.g. 9 cards per page) — sent as a constant with each paginated request",
+        "sector": "From a filter dropdown above the project cards list populated with hardcoded sector options: ['Urban Infrastructure', 'Government', 'Real Estate', 'Industrial', 'Agriculture'] — empty/null means all sectors",
+        "project_type": "From a filter dropdown above the project cards list populated with hardcoded project type options: ['Hydraulic Modeling', 'WTP Design', 'STP Design', 'GIS Integration', 'Environmental Consulting', 'Irrigation'] — empty/null means all types"
+      }
+    }
+  ]
+}

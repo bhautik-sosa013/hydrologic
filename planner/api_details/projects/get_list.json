@@ -1,0 +1,33 @@
+{
+  "method": "GET",
+  "path": "/projects/list",
+  "purpose": "Fetch paginated list of project case studies with filters for sector and project type",
+  "request_type": "query",
+  "request_payload": {
+    "page": "number",
+    "limit": "number",
+    "sector": "string",
+    "project_type": "string"
+  },
+  "response_format": {
+    "message": "string",
+    "data": [
+      {
+        "id": "string",
+        "title": "string",
+        "client": "string",
+        "sector": "string",
+        "project_type": "string",
+        "challenge_summary": "string",
+        "location": "string",
+        "year": "string",
+        "thumbnail_url": "string",
+        "created_at": "string"
+      }
+    ],
+    "total": "number",
+    "page": "number",
+    "limit": "number",
+    "totalPages": "number"
+  }
+}

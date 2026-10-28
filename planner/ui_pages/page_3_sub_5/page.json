@@ -1,0 +1,11 @@
+{
+  "unique_page_id": "page_3_sub_5",
+  "page_name": "Environmental and Irrigation Consulting",
+  "description": "This service detail page covers Hydrologic Innovation's environmental impact assessment and irrigation system consulting offerings. It details how the firm applies hydrological modeling, sustainability frameworks, and precision irrigation design to serve agricultural clients, real estate developers, and government bodies managing water resources and land development projects.",
+  "file_name": "src/pages/EnvironmentalAndIrrigationConsulting.tsx",
+  "is_protected_page": false,
+  "navigation_note": "Opens when a visitor clicks the 'Environmental & Irrigation Consulting' service card or link on the main Services page. Back button or breadcrumb returns to the Services overview.",
+  "parent_page_id": "page_3",
+  "sub_pages_required": false,
+  "endpoints": []
+}

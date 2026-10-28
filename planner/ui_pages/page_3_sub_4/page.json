@@ -1,0 +1,11 @@
+{
+  "unique_page_id": "page_3_sub_4",
+  "page_name": "GIS Integration",
+  "description": "This service detail page explains how Hydrologic Innovation leverages Geographic Information Systems to map, analyze, and manage water and sewer networks spatially. It covers data capture workflows, integration with hydraulic models, asset management, and how GIS-driven insights support data-driven infrastructure planning for government and utility clients.",
+  "file_name": "src/pages/GISIntegration.tsx",
+  "is_protected_page": false,
+  "navigation_note": "Opens when a visitor clicks the 'GIS Integration' service card or link on the main Services page. Back button or breadcrumb returns to the Services overview.",
+  "parent_page_id": "page_3",
+  "sub_pages_required": false,
+  "endpoints": []
+}
